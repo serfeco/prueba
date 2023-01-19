@@ -1,0 +1,469 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0a0a0a;
+}
+
+
+
+/*##############################################navbar############################*/
+
+.navbar {
+  border-top: 6px solid #eb0808;
+  background-color: #242a33;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .navbar-brand {
+  display: block;
+  padding: 15px 40px;
+
+}
+
+
+
+
+.navbar .nav-link {
+  color: #eb0808;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+
+.navbar .nav-link:hover {
+  color: #f5f3f5;
+  background-color: #eb0808;
+}
+
+/*##################################################viewport######################*/
+
+.viewport-80 {
+  min-height: 80vh;
+}
+
+/*###############################banener###################################*/
+
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url(images/downloadfestival_logo-scaled.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgb(36, 42, 51);
+  z-index: -1;
+  bottom: 0;
+  transform-origin: left bottom;
+  transform: skewY(3deg);
+}
+
+#banner .banner-title {
+  font-style: italic;
+}
+
+#banner .banner-link {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  border-radius: 0;
+  color: #ffffff;
+ 
+}
+
+
+#banner .banner-link:hover {
+  border: 2px solid #b40000;
+  background-color: #d10000;
+}
+
+/*#############################banner icons################################*/
+
+#banner-icons {
+  margin-top: -40px;
+}
+
+#banner-icons ul {
+  list-style-type: none;
+}
+
+#banner-icons li {
+  padding: 10px;
+  margin: 0 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#banner-icons .fa {
+  font-size: 32px;
+}
+
+#banner-icons a {
+  color: #f5f3f5;
+  text-decoration: none;
+  display: block;
+}
+
+#banner-icons a:hover {
+  color: #eb0808;
+}
+
+/*####################################title####################################*/
+
+.title .fa {
+  font-size: 60px;
+  color: #eb0808;
+}
+
+.title .title-text {
+  padding-left: 15px;
+  border-left: 3px solid #ced0ce;
+}
+
+/*############################services#########################################*/
+
+#services .service-icon {
+  font-size: 60px;
+  color: #f5f3f5;
+  padding: 60px;
+  background-color: #eb0808;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%)
+}
+
+#services .service-icon:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #eb0808;
+}
+
+#services .service-icon-1 {
+  clip-path: polygon(0 100%, 50% 0, 100% 100%)
+}
+
+#services .service-icon-2 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+
+}
+
+#services .service-icon-3 {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+#services .service-icon-4 {
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+/*#################################contact########################*/
+
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(images/login.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+}
+
+
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  font-size: 2.5em;
+  border-radius: 0;
+  border-bottom: 3px solid white;
+}
+
+#contact .form-btn {
+  font-size: 2.5em;
+  border-radius: 0;
+  background-color: transparent;
+  color: #ffffff;
+  border: 3px solid rgb(255, 0, 0);
+}
+
+#contact .form-btn:hover {
+  background-color: #eb0808;
+  color: #ffffff;
+  border: 3px solid #eb0808;
+
+}
+
+#contact input[type="text"]::-webkit-input-placeholder {
+  color: white;
+}
+
+/*###################################work##########################################*/
+
+#work .work-title-text {
+
+  padding-right: 15px;
+  border-right: 3px solid #ced0ce;
+}
+
+
+#work button {
+  font-size: 20px;
+  padding: 15px 25px;
+  margin: 5px;
+  background-color: #242a33;
+  border-radius: 0;
+  color: #eb0808;
+}
+
+#work button:hover {
+  background-color: #eb0808;
+  color: #242a33;
+}
+
+/*###################################about-us##########################################*/
+
+#about-us {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(images/logous.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+
+}
+
+
+#about-us a {
+  text-decoration: none;
+  color: #CED0CE;
+}
+
+#about-us .card-header {
+  background-color: #eb0808;
+}
+
+/*###################################Current-projects##########################################*/
+
+#current-projects .img-container {
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+height: 250px;
+}
+
+#current-projects .img-container:hover img {
+  opacity: 0.7;
+}
+
+#current-projects .img-icons {
+  position: absolute;
+  bottom: -10em;
+  padding: 40px 0;
+  width: 100%;
+  background: linear-gradient(rgba(206, 208, 206, 0.7), rgba(206, 208, 206, 0.7));
+  transition: bottom 1.8s;
+
+}
+
+
+#current-projects .img-container:hover .img-icons {
+  bottom: 0;
+}
+
+
+#current-projects .fa {
+  color: #eb0808;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+#current-projects .fa:hover {
+  color: #242a33;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+/*#####################numbers#################################*/
+
+#numbers .num {
+  padding: 30px 0;
+  background: #242a33;
+  color: #f5f3f5;
+}
+
+#numbers .num:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+#numbers .num-item {
+  font-size: 30px;
+}
+
+#numbers .fa {
+  font-size: 60px;
+}
+
+/*#####################team#################################*/
+
+#team .card img {
+  margin-top: -50px;
+}
+
+
+#team .card hr {
+  background-color: #eb0808;
+}
+
+
+#team .card .fa {
+  color: #eb0808;
+  font-size: 30px;
+}
+
+#team .card .fa:hover {
+  color: #242a33;
+}
+
+/*#####################progress-bars#################################*/
+
+#progress-bars {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(images/logobarras.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+
+}
+
+.primary-color-background {
+  background-color: #eb0808;
+}
+
+/*#########################pricing########################*/
+
+#pricing .price-num {
+  background-color: #ced0ce;
+  padding: 10px 0;
+  position: relative;
+}
+
+#pricing .money {
+  position: absolute;
+  top: 32%;
+  left: 22%;
+  font-size: 28px;
+
+}
+
+#pricing .money-num {
+  font-size: 70px;
+}
+
+#pricing .money-end {
+  font-size: 25px;
+}
+
+#pricing .price-num::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ced0ce;
+}
+
+#pricing .list-group-item {
+  position: relative;
+  font-size: 12px;
+
+}
+
+#pricing .first-list {
+  border-top: none!important;
+}
+
+
+#pricing .price-btn {
+  border: 2px solid #eb0808;
+  margin-bottom: -20px;
+  text-decoration: none;
+  color: #eb0808;
+  background-color: #fff;
+}
+
+#pricing .price-btn:hover {
+  background-color: #242a33;
+  border: 2px solid #242a33;
+}
+
+#pricing .premium .price-num {
+  background-color: #eb0808;
+}
+
+#pricing .premium .price-num::after {
+  border-top: 20px solid #eb0808;
+
+}
+
+/*###############quotes####################################*/
+
+#quotes {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(images/fondofinal.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f5f3f5;
+}
+
+#quotes .fa-quote-left {
+  font-size: 40px;
+  color: #eb0808;
+}
+
+
+#quotes img {
+  max-width: 250px;
+}
+
+
+/*##################################footer##############*/
+
+#footer {
+  background-color: #CED0CE;
+}
+
+#footer .fa {
+  color: #eb0808;
+  font-size: 30px;
+  background-color: #2D3142;
+  padding: 5px;
+}
+
+#footer p {
+  color: #2D3142;
+}
+
+
+
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+}
